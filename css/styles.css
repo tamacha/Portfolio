@@ -311,6 +311,9 @@ footer {
 	#works {
 		height: 500px;
 	}
+	.img-bg-01 {
+		background-position: left;
+	}
 	.page-title {
 		font-size: 4rem;
 	}
