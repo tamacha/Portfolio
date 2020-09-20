@@ -312,7 +312,7 @@ footer {
 		height: 500px;
 	}
 	.img-bg-01 {
-		background-position: left;
+		background-position: right 0 top 0;
 	}
 	.page-title {
 		font-size: 4rem;
