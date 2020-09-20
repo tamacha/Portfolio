@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tama Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+	
+<body>
+	<div class="parallax-bg img-bg-01">
+		<nav>
+			<ul class="header-list">
+				<li><a datascroll href="#about">about</a></li>
+				<li><a datascroll href="#skill">skill</a></li>
+				<li><a datascroll href="#works">works</a></li>
+				<li><a datascroll href="#contact">contact</a></li>
+			</ul>
+		</nav>
+		<h1 class="page-title">Tama's<br>portfolio</h1>
+	</div>
+	
+	<div class="scrollbox1">
+		<section id="about">
+			<section class="effect-fade">
+			<h2>about</h2>
+			<img src="images/IMG_1110.jpeg">
+			<p>1995年三重県生まれ。調理や製造で働いていましたが、プログラミングに興味を持ち、学習をしはじめました。今はスクールで勉強しています。</p>
+			</section>
+		</section>
+	</div>
+	
+	<div id="skill">
+		<section  class="effect-fade">
+			<h2>skill</h2>
+			<p>(%表示)</p>
+			<div class="chart effect-fade">
+				<canvas id="mychart" style="width:300px; height:100px;"></canvas>
+			</div>
+			<script src="js/mychart.js"></script>
+		</section>
+	</div>
+	
+	<div id="works"  class="effect-fade">
+		<h2>works</h2>
+		<div class="grid">
+			<div class="item">
+				<a href="https://tamacha.github.io/MyCafe/index.html" target="_blank"><img src="images/ssMyCafe.png"></a>
+				<p>架空カフェサイト(html/css)</p>
+			</div>
+			<div class="item">
+				<a href="https://tamacha.github.io/Business/index.html" target="_blank"><img src="images/ssBusiness.png"></a>
+				<p>架空ビジネスサイト(html/css)</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="contact">
+		<div class="contact-form effect-fade">
+			<h2>contact</h2>
+			<p>制作の依頼・相談など、こちらからお願いします。<br>お気軽にご連絡ください。</p>
+			<div class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqv6bJpiIjVN_lQolB2HRkq46o0nFuuC5iQe5QNILBY00-vA/viewform?usp=sf_link">
+				<i class="fas fa-envelope"></i>
+				お問い合わせフォーム
+			</a>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="twitter">
+			<a href="https://twitter.com/machi0155"><i class="fab fa-twitter fa-1x">twitter</i></a>
+		</div>
+	</footer>
+<script type="text/javascript" src="js/effect-scroll.js"></script>
+</body>
+</html>
