@@ -75,12 +75,12 @@ h2 {
 	width: 100%;
 	color: #fff;
 	font-size: 3.5rem;
+	font-weight: 500;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: 0;
-	font-weight: 500;
 	-webkit-animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
